@@ -1,0 +1,255 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: hsla(43,36%, 85%, .36);
+}
+
+.icon {
+	position: absolute;
+	right: 15px;
+	padding: 10px auto;
+	margin-top:32px;
+}
+
+.icon a:hover {
+	background-color: #ddd;
+}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #D4ECE8;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: rgb(245, 240, 227);
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+	background-color:hsla(43,36%, 85%, .36);
+	padding: 6px 12px;
+	background-size: 100%;
+}
+
+
+.spacing {
+height:100px;
+}
+
+.bottomspacing{
+	height:300px;
+}
+
+.center {
+	width: 600px;
+	margin-top: 100;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 6%;
+	background: hsla(170, 39%, 88%,.95);
+	text-align: center;
+	border: 4px double white;
+}
+   
+.shoptext {
+	height:300px;
+	width:400px;
+	margin-top: 0;
+	margin-bottom: 200px;
+	margin-left:650px;
+	margin-right:50px;
+	padding: 6%;
+	background: hsla(170, 39%, 88%,.95);
+	text-align: center;
+	border: 4px double white;
+}
+
+
+#logo {
+	height: 81px;
+	width: 130px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+h1 {
+	font-family: "Gautreaux", sans-serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+	color: black;
+}
+
+h2 {
+	font-family: "Times New Roman", 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+	margin: 0px auto 25px auto;
+	text-align: justify;
+}
+
+#clothes {
+	float:left;
+}
+
+h3 {
+	font-family: "Times New Roman", 'Times New Roman', Times, serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+	margin: 30px auto 25px auto;
+	text-align: center;
+}
+
+p {
+	font-family: "Times New Roman", 'Times New Roman', Times, serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+	color: #fff;
+	position: relative;
+	left: 700px;
+	bottom:300px;
+}
+    
+nav{
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border: dotted turquoise;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-family:'Times New Roman', Times, serif;
+	font-weight:bold;
+}
+
+a:hover{
+	color:black;
+	background:#ddd;
+}
+
+
+
+
+  .material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;  /* Preferred icon size */
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	color: black;
+  }
+
+.imageback{
+	background-image: url(images/clothingrack-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+}
